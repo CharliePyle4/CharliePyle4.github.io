@@ -1,8 +1,152 @@
 index.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Pyle's Homepage</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Dark Theme */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header */
+        h1 {
+            font-size: 2.5em;
+            color: #00bcd4;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        /* Section Titles */
+        h2 {
+            font-size: 2em;
+            color: #90caf9;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 5px;
+            margin: 20px 0 15px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #00e676;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        strong {
+            color: #ffd54f;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
 <body>
-<h1>Charlie Pyle's Homepage</h1>
-<p>Welcome to my website, it's currently a work in progress because I've been busy with school</p>
+
+    <!-- Header -->
+    <h1>Charlie Pyle's Homepage</h1>
+    <p>Welcome to my website, it's currently a work in progress because I've been busy with school.</p>
+
+    <!-- Resume Link -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>
+            <a href="https://drive.google.com/file/d/1BqX5D2MxT1c12u154PZSCx5KfyV3ULDc/view?usp=drive_link" target="_blank">Download My Resume here</a>
+        </p>
+    </section>
+
+    <!-- Computer Science Projects Section -->
+    <section id="cs-projects">
+        <h2>Computer Science Projects</h2>
+        <ul>
+            <li><strong>Portfolio Optimization:</strong> 
+              Most schoolwork of mine is done in C++, and my personal projects are mainly in Python. I'm currently starting to learn SQL with PostgreSQL to use in conjunction with python for sports analytics projects.
+              C++ Libraries: STL, standard library for containers and algorithms. Used for DS&A, sorting, storage, etc... input/output libraries for file parsing and manipulation
+              Python Libraries: Pandas + Numpy: data manipulation and storage for projects. Scikit-Learn: used with genetic algorithms, Gradient Descent, Differential Evolution, regressions
+              MatplotLib: data visualization and graphics for UI's and Analysis projects. Requests + Beautifulsoup + Selenium: API requests and web scrapping for data collection.
+            </li>
+          
+            <li><strong>CSCE221 Projects</strong> Data Science and Algorithms class. work done in C++</li>
+            <li><strong>CSCE121 Projects</strong> Introductory C++ class focusing on OOP</li>
+          
+          
+            <li><strong>Portfolio Optimization:</strong> Multi Constraint Portfolio Optimization factoring in risk and return. Customizable to risk tolerance and features dividends, allocation caps, restrictions, etc... Optimized using Differential Evolution in Python</li>
+            <li><strong>Sports Prediction Projects</strong> Python and soon SQL. Mostly NBA analytics for player props</li>
+            <li><strong>Monte Carlo Simulation work</strong> Python, use of MC techniques for financial applications, including risk analysis and option pricing.</li>
+        </ul>
+    </section>
+
+    <!-- College Coursework Section -->
+    <section id="college-work">
+        <h2>College Work</h2>
+        <ul>
+            <li><strong> Mathematics:</strong> Advanced Calculus, Differential Equations, Linear Algebra</li>
+            <li><strong>Statistics:</strong> Probability Theory, Statistical Inference, STAT 212 - ANOVA and Experimental Design</li>
+            <li><strong>Computer Science:</strong> Data Structures, Algorithms, C++ Programming, Python Programming</li>
+            <li><strong>Other: </strong> Data Structures, Algorithms, C++ Programming, Python Programming</li>
+            <li><strong>Transcript and course descriptions</strong> link </li>
+        </ul>
+    </section>
+
+    <!-- High School Work Section -->
+    <section id="high-school-work">
+        <h2>High School Work</h2>
+        <ul>
+            <li><strong>.........................</strong></li>
+            <li><strong>Academic Achievement</strong> Classes, testing, ranks, awards, etc..</li>
+            <li><strong>Extracurriculars: </strong> ...................</li>
+        </ul>
+    </section>
+
+    <!-- Personal Life Section -->
+    <section id="personal-life">
+        <h2>Personal Life</h2>
+        <p>Outside of school and projects, I enjoy: .....</p>
+        <ul>
+            <li>Basketball</li>
+            <li>Fraternity, charity work etc...</li>
+            <li>.......................</li>
+        </ul>
+    </section>
+
 </body>
 </html>

@@ -1,0 +1,177 @@
+TranscriptsAndDescriptions.html
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Pyle's Homepage</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Dark Theme */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header */
+        h1 {
+            font-size: 2.5em;
+            color: #00bcd4;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        /* Section Titles */
+        h2 {
+            font-size: 2em;
+            color: #90caf9;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 5px;
+            margin: 20px 0 15px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #00e676;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        strong {
+            color: #ffd54f;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <h1>Transcripts and Course Descriptions</h1>
+    
+    <!--Links-->
+    <section id="resume">
+        <h2>Transcript Downloads</h2>
+        <p>
+            <a href="https://drive.google.com/file/d/1i1ZoeIFzkyLrKl7YoE0ghCtKw7nWSBo2/view?usp=drive_link" target="_blank">College Transcript</a>
+            <br>
+            <a href="https://drive.google.com/file/d/1D0KUBvIy3m1pkcbAIuuKuEyXe2lgiQS1/view?usp=drive_link" target="_blank">High School Transcript</a>
+        </p>
+    </section>
+
+    <!-- College Section -->
+    <section id="cs-projects">
+        <h1>College Courses</h1>
+
+        <h2>Info</h2>
+        <ul>
+            <li><strong>Major</strong>Honors Applied Mathematics, Computational Science Emphasis</li>
+            <li><strong>Minors</strong>Description</li>
+            <li><strong>Scholarships</strong>Description</li>
+            <li><strong>clubs</strong>Description</li>
+        </ul>
+
+
+        <h2>Spring 2024</h2>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+
+        <h2>Fall 2024</h2>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+
+        <h2>Spring 2023</h2>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+
+        <h2>Fall 2023</h2>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+
+        <h2>Future CourseWork</h2>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+    </section>
+
+
+    <!-- High School Section -->
+    <section id="high-school">
+        <h2>Info</h2>
+        <ul>
+            <li><strong>GPA, honors</strong>Honors Applied Mathematics, Computational Science Emphasis</li>
+            <li><strong>Testing Scores</strong>Description</li>
+            <li><strong>Societies/clubs</strong>Description</li>
+        </ul>
+
+
+        <h1>High School Courses</h1>
+        <ul>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+            <li><strong>Course Name</strong>Description</li>
+        </ul>
+
+    </section>
+
+
+
+</body>
+</html>
